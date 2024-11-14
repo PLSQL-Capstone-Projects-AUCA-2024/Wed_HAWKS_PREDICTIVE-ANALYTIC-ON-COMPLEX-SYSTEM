@@ -37,7 +37,7 @@ Engagement: There are predictive models which help to determine the risks and he
 Responsibilities: Feeding in external data such as satellite imageries, disaster watch alerts, etc.
 Engagement: To help the information system acquire data so that it can effectively forecast disasters.
 
-                                 **Process Modeling Using Swimlane Diagram**
+ **Process Modeling Using Swimlane Diagram**
 
 Swim Lanes Components.
 -  **Swimlane 1:** The users called the emergency planners who carry out the functions of disaster event identification, data analyses requests, assessment of prediction outputs, and the response calls.
@@ -104,3 +104,5 @@ The architecture of the database will enable the system to capture some critical
    - Real-time forecasting by associating weather patterns with the occurrence of disasters.
    - The monitoring of disaster consequences and actions taken over a period.
    - Consolidated information is therefore allowed for rapid strategic responses and planning of emergency management.
+
+
