@@ -1,4 +1,5 @@
-                                              ![image](https://github.com/user-attachments/assets/5923131f-057e-4d21-b1ae-ddc8ff475e7c)
+![image](https://github.com/user-attachments/assets/5923131f-057e-4d21-b1ae-ddc8ff475e7c)
+                                               
                                                **# Wed_Hawks_DisasterPredictionManagementSystem**
                                                
                         The Disaster Management Database enables rapid response, preparedness, and mitigation for natural disasters. 
