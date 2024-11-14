@@ -1,9 +1,9 @@
 ![image](https://github.com/user-attachments/assets/5923131f-057e-4d21-b1ae-ddc8ff475e7c)
                                                
-                                               **# Wed_Hawks_DisasterPredictionManagementSystem**
+  **# Wed_Hawks_DisasterPredictionManagementSystem**
                                                
-                        The Disaster Management Database enables rapid response, preparedness, and mitigation for natural disasters. 
-                        It centralizes real-time and historical data on disasters and weather, using predictive models to aid decision-making.
+                    **The Disaster Management Database enables rapid response, preparedness, and mitigation for natural disasters** 
+                        **It centralizes real-time and historical data on disasters and weather, using predictive models to aid decision-making**.
 
 
 **PHASE TWO: Business Process Modeling**
