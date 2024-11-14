@@ -106,3 +106,50 @@ The architecture of the database will enable the system to capture some critical
    - Consolidated information is therefore allowed for rapid strategic responses and planning of emergency management.
 
 
+
+### Hawks Group Task Assignment
+
+1. **Project Name & Description**:
+   - **Assigned to:** *Mayanja Leon Sengendo, Mugabekazi Liliane, Iriza Gatera Merveille*
+   - **Task:** Collaborate to write a brief description and name for the project.
+
+2. **Installation**:
+   - **Assigned to:** *Mugabekazi Liliane, Mireille Elyse Kubwayo, Sano Chris Armel*
+   - **Task:** Outline steps for setting up and installing necessary tools/software.
+
+3. **Usage**:
+   - **Assigned to:** *Iriza Gatera Merveille, Sabour Yacoub Mahamat, IRADUKUNDA Boris*
+   - **Task:** Create usage instructions and examples for running the project.
+
+4. **Contributing**:
+   - **Assigned to:** *Mireille Elyse Kubwayo, Sano Chris Armel, Ishimwe Joyeuse*
+   - **Task:** Write guidelines on how others can contribute to the project.
+
+5. **License**:
+   - **Assigned to:** *Sano Chris Armel, Nsengiyumva Egide, Ange Kimberly Mukeshimana*
+   - **Task:** Select and include a license for the project.
+
+6. **Authors and Acknowledgment**:
+   - **Assigned to:** *Sabour Yacoub Mahamat, IRADUKUNDA Boris, Ishimwe Joyeuse*
+   - **Task:** List authors and any acknowledgments.
+
+7. **Versioning**:
+   - **Assigned to:** *IRADUKUNDA Boris, Ishimwe Joyeuse, Nsengiyumva Egide*
+   - **Task:** Specify versioning information and how to update it.
+
+8. **Contact Information**:
+   - **Assigned to:** *Ishimwe Joyeuse, Nsengiyumva Egide, Ange Kimberly Mukeshimana*
+   - **Task:** Provide contact information for project queries.
+
+9. **FAQs (if applicable)**:
+   - **Assigned to:** *Nsengiyumva Egide, Ange Kimberly Mukeshimana, Namahoro Sandrine Marie Merci*
+   - **Task:** Compile a list of common questions and answers.
+
+10. **Dependencies**:
+    - **Assigned to:** *Ange Kimberly Mukeshimana, Namahoro Sandrine Marie Merci, Mayanja Leon Sengendo*
+    - **Task:** List all dependencies and their installation methods.
+
+11. **Code Structure / Folder Structure**:
+    - **Assigned to:** *Namahoro Sandrine Marie Merci, Mayanja Leon Sengendo, Mugabekazi Liliane*
+    - **Task:** Document the project’s file and folder structure.
+
