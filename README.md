@@ -16,13 +16,14 @@ Enhance preparedness by availing workable insights to emergency teams and govern
  ### **Expected Outputs**
  
  a. More accurate disaster predictions
- Better coordination of response and disaster management.
+ Better coordination of response and  disaster management.
+ 
  b. Evidence-based decision-making in disaster situations.
  
 ---
 ### **Identifying Key Stakeholders**
 #### **Key Stakeholder and Their Responsibilities** 
-1. **Users
+1. **Users**
 - Roles: Disaster planners, data evaluators, and on-site responders utilize the system for disaster-related data processing.  
 - Engagement: Handle information on disaster risks, occurrences, and predictions.  
 
