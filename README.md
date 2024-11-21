@@ -152,5 +152,6 @@ INNER JOIN Location ON Disaster.Location_ID = Location.Location_ID;
   ROLLBACK;
 
 
+<!-- Contribution: Reviewed and added comments for better readability -->
 
 
