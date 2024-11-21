@@ -14,9 +14,11 @@ The system shall:
 Enhance preparedness by availing workable insights to emergency teams and government bodies.
  Allow for international collaboration by sharing data across borders for harmonized disaster management approaches.
  ### **Expected Outputs**
+ 
  a. More accurate disaster predictions
  Better coordination of response and disaster management.
- Evidence-based decision-making in disaster situations.
+ b. Evidence-based decision-making in disaster situations.
+ 
 ---
 ### **Identifying Key Stakeholders**
 #### **Key Stakeholder and Their Responsibilities** 
