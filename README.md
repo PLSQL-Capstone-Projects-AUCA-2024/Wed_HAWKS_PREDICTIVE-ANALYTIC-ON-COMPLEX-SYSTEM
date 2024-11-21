@@ -153,3 +153,114 @@ The architecture of the database will enable the system to capture some critical
     - **Assigned to:** *Namahoro Sandrine Marie Merci, Mayanja Leon Sengendo, Mugabekazi Liliane*
     - **Task:** Document the project’s file and folder structure.
 
+
+
+
+# Disaster Management Database System: README Phase 4,5 and 6.
+
+## **Project Overview**
+The Disaster Management Database System shall support the efficiency and effectiveness of managing disaster data, enabling disaster prediction, monitoring, preparedness, and response planning using an Oracle Pluggable Database, PDB. This project will outline designing, creating, and interacting with a relational database system suited to disaster management needs.
+
+---
+ 
+## **Phase 4: Database Creation and Naming**
+
+ 
+### **Physical Database Structure**
+With the logical database model, translation to a physical structure yields the following tables:
+
+1. **Created Tables**: 
+   - `Location`: Geographical data is stored here. 
+   - `Disaster`: It stores the details of disasters. 
+   - `Prediction`: Maintains disaster predictions. 
+   - `Weather_Condition`: The weather-related data is tracked. 
+   - `Preparedness_Measure`: It lists measures taken against disaster preparedness.
+- `Historical_Disaster_Data`: Archives historical disaster details.
+
+2. **Relationships Established**:
+   - Foreign key constraints ensure referential integrity between tables, e.g., `Disaster.Location_ID` references `Location.Location_ID`.
+
+3. **Constraints Applied**:
+   - Primary keys, foreign keys, unique constraints, and data types are enforced to ensure data integrity.
+
+
+
+### **Oracle Enterprise Manager (OEM)**
+Oracle Enterprise Manager is configured to monitor and manage the database. Screenshots demonstrating progress, including:
+- Database creation
+- Table implementation
+- Execution of queries 
+are uploaded as a part of the reporting process.
+
+## **Phase 5: Table Implementation and Data Insertion**
+
+### **Table Creation**
+The logical model is implemented by creating the following tables in Oracle:
+- `Location`
+- `Disaster`
+- `Prediction`
+- `Weather_Condition`
+- `Preparedness_Measure`
+- `Historical_Disaster_Data`
+
+### **Data Insertion**
+Insert meaningful and realistic data into tables for test and demo purposes. Example:
+- **Location Table**:
+ ```sql
+ INSERT INTO Location (Location_ID, Country, State, City)
+VALUES (1, 'Rwanda', 'Northern Province', 'Musanze');
+```
+- **Disaster Table:**
+```sql
+INSERT INTO Disaster (Disaster_ID, Disaster_Type, Disaster_Date, Magnitude, Location_ID) 
+VALUES (1, 'Imitingito', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 7.5, 1);
+```
+
+### **Data Integrity**
+Data are checked against the problem statement for validity. Queries and operations are used to validate the correctness and relevance of the inserted data.
+
+---
+
+## **Phase 6: Database Interaction and Transactions**
+
+### **Database Operations**
+Different join operations are performed to fetch information. These include the following:
+
+1. **Cross Join**:
+   ```sql
+   SELECT Disaster.Disaster_Type, Location.Country, Location.City 
+   FROM Disaster CROSS JOIN Location;
+   ```
+2. **Inner Join**:
+   ```sql
+   SELECT Disaster.Disaster_Type, Location.Country, Location.City 
+   FROM Disaster 
+   INNER JOIN Location 
+   ON Disaster.Location_ID = Location.Location_ID;
+   ```
+3. **Outer Join**:
+   ```sql
+SELECT Prediction.Prediction_ID, Prediction.Disaster_Type, Location.Country 
+   FROM Prediction 
+   LEFT OUTER JOIN Location 
+   ON Prediction.Predicted_Location_ID = Location.Location_ID;
+   ```
+### **Transaction Management**
+Transactions assure consistency and robustness:
+1. **Insert Disaster and Preparedness Measure in the Same Transaction**:
+   ```sql
+   BEGIN;
+   INSERT INTO Disaster (Disaster_ID, Disaster_Type, Disaster_Date, Magnitude, Location_ID)
+VALUES (6, 'Landslide', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 5.1, 3);
+   INSERT INTO Preparedness_Measure (Measure_ID, Disaster_ID, Measure_Description, Measure_Type, Start_Date, End_Date)
+   VALUES (6, 6, 'Slope stabilization measures.', 'Infrastructure', TO_DATE('2024-11-01', 'YYYY-MM-DD'), TO_DATE('2024-12-01', 'YYYY-MM-DD'));
+   COMMIT;
+   ```
+
+2. **Rollback on Error**:
+   ```sql
+   BEGIN;
+   INSERT INTO Prediction (Prediction_ID, Disaster_Type, Predicted_Date, Risk_Level, Predicted_Location_ID, Prediction_Method)
+VALUES (6, 'Flood', TO_DATE('2024-12-15', 'YYYY-MM-DD'), 'High', 99, 'Rainfall Analysis');
+   ROLLBACK;
+   ```
