@@ -83,6 +83,8 @@ The ER diagram will map the following types of relationships:
 - Many-to-one relationships between predictions and locations.  
 - Many-to-many relationships between historical data, disasters, and locations.
 
+![17322208214512830804362206652270](https://github.com/user-attachments/assets/5d605017-ab79-4484-84c2-cff2a665a27b)
+
 ---
 ## **PHASE 4: Creating and Naming the Database**
 
