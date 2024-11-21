@@ -47,8 +47,7 @@ The swimlane diagram details the main processes involved:
 - **Swimlane 2:** Data supply is ensured by different departments; they ensure data integrity and response planning.
 - **Swimlane 3:** Information Systems collects, stores, and processes data to generate predictions.
 - **Swimlane 4:** External Data Sources providing satellite images and weather forecasts in raw forms.
-  
-![Screenshot (19)](https://github.com/user-attachments/assets/ce78ab05-0c4c-4924-ac80-3e874adad01f)
+
 - 
 ---
 ### **BPMN Process Mapping**
