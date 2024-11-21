@@ -1,17 +1,6 @@
 ![image](https://github.com/user-attachments/assets/5923131f-057e-4d21-b1ae-ddc8ff475e7c)
-                                          
 
-![Screenshot (18)](https://github.com/user-attachments/assets/c9e618e8-1875-44a7-b3d9-f149f6878838)
-
-Link for references: https://demo.bpmn.io/new, 
-
-
-
-![Screenshot (19)](https://github.com/user-attachments/assets/ce78ab05-0c4c-4924-ac80-3e874adad01f)
-
-
-# **Disaster Management Database System: README**
-
+                                      
 ## **Wed_Hawks_DisasterPredictionManagementSystem**
 
 The **Disaster Management Database System** can be used to speed up the response, preparedness, and mitigation against natural disasters. Centralizing disaster and weather data in real time, this system applies predictive models in order to enrich decision-making and support rescue teams and government agencies in disaster management more effectively.
@@ -55,6 +44,9 @@ The swimlane diagram details the main processes involved:
 - **Swimlane 2:** Data supply is ensured by different departments; they ensure data integrity and response planning.
 - **Swimlane 3:** Information Systems collects, stores, and processes data to generate predictions.
 - **Swimlane 4:** External Data Sources providing satellite images and weather forecasts in raw forms.
+  
+![Screenshot (19)](https://github.com/user-attachments/assets/ce78ab05-0c4c-4924-ac80-3e874adad01f)
+- 
 ---
 ### **BPMN Process Mapping**
 The following BPMN diagram visualizes disaster management processes: 
@@ -66,7 +58,9 @@ The following BPMN diagram visualizes disaster management processes:
 - **Preparedness Strategies:** Departments disseminate warnings and execute strategies.  
 - **End Event:** Data updates enhance future predictions.
 
-*Reference*: [BPMN Modeler](https://demo.bpmn.io/new)
+![Screenshot (18)](https://github.com/user-attachments/assets/c9e618e8-1875-44a7-b3d9-f149f6878838)
+
+Link for references:(https://demo.bpmn.io/new)
 
 ---
 
@@ -149,10 +143,10 @@ INNER JOIN Location ON Disaster.Location_ID = Location.Location_ID;
   ```
 - **Rollback on Error**:
   ```sql
-BEGIN;
+   BEGIN;
   INSERT INTO Prediction (Prediction_ID, Disaster_Type) VALUES (3, 'Hurricane');
   ROLLBACK;
-  ```
+
 
 
 
