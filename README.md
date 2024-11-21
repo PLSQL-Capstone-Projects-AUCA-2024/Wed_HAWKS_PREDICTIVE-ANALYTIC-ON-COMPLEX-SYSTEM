@@ -1,9 +1,9 @@
 ![image](https://github.com/user-attachments/assets/5923131f-057e-4d21-b1ae-ddc8ff475e7c)
 
                                       
-## **Wed_Hawks_DisasterPredictionManagementSystem**
+## **WED_HAWKS_PREDICTIVE ANALYTIC ON COMPLEX SYSTEM**
 
-The **Disaster Management Database System** can be used to speed up the response, preparedness, and mitigation against natural disasters. Centralizing disaster and weather data in real time, this system applies predictive models in order to enrich decision-making and support rescue teams and government agencies in disaster management more effectively.
+The **PREDICTIVE ANALYTIC IN COMPLEX ENVIRONMENT (Disaster Management) Database System** can be used to speed up the response, preparedness, and mitigation against natural disasters. Centralizing disaster and weather data in real time, this system applies predictive models in order to enrich decision-making and support rescue teams and government agencies in disaster management more effectively.
 
 ---
 ## **PHASE 2: Business Process Modeling**
