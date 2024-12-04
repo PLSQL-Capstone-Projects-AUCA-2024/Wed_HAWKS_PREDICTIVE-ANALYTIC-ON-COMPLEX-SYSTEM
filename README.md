@@ -23,9 +23,9 @@ Enhance preparedness by availing workable insights to emergency teams and govern
 Allow for international collaboration by sharing data across borders for harmonized disaster management approaches.
 ### Expected Outputs
  
- a. More accurate disaster predictions
- b. Better coordination of response and  disaster management.
- c. Evidence-based decision-making in disaster situations.
+a. More accurate disaster predictions
+b. Better coordination of response and  disaster management.
+c. Evidence-based decision-making in disaster situations.
  
 ---
 ### Identifying Key Stakeholders
