@@ -24,9 +24,8 @@ Allow for international collaboration by sharing data across borders for harmoni
 ### Expected Outputs
  
  a. More accurate disaster predictions
- Better coordination of response and  disaster management.
- 
- b. Evidence-based decision-making in disaster situations.
+ b. Better coordination of response and  disaster management.
+ c. Evidence-based decision-making in disaster situations.
  
 ---
 ### Identifying Key Stakeholders
