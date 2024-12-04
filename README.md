@@ -32,12 +32,12 @@ Enhance preparedness by availing workable insights to emergency teams and govern
 - Engagement: Facilitate situation analysis and real-time response strategy development.
 
 3. **Information Systems** 
-   - Responsibilities: Integrate predictive models and databases to analyze and forecast disasters. 
-   - Engagement: Process data from various sources to issue warnings and recommendations.
+- Responsibilities: Integrate predictive models and databases to analyze and forecast disasters. 
+- Engagement: Process data from various sources to issue warnings and recommendations.
 
 4. **External Data Sources** 
-   - Responsibilities: Supply satellite imagery, weather alerts, and other relevant data.
-   - Engagement: Aggregate and supply external data for system use.
+- Responsibilities: Supply satellite imagery, weather alerts, and other relevant data.
+- Engagement: Aggregate and supply external data for system use.
 
 ---
 
@@ -48,7 +48,6 @@ The swimlane diagram details the main processes involved:
 - **Swimlane 3:** Information Systems collects, stores, and processes data to generate predictions.
 - **Swimlane 4:** External Data Sources providing satellite images and weather forecasts in raw forms.
 
-- 
 ---
 ### **BPMN Process Mapping**
 The following BPMN diagram visualizes disaster management processes: 
@@ -90,7 +89,7 @@ The ER diagram will map the following types of relationships:
 - **Username:** `wed_hawks`  
 - **Password:** `hawks`  
 
-### **Physical Database Structure
+### **Physical Database Structure**
 1. **Tables Created**: Location, Disaster, Prediction, Weather_Condition, Preparedness_Measure, Historical_Disaster_Data. 
 2. **Relationships**: Tables are related with foreign keys to maintain referential integrity. 
 3. **Constraints**: Primary keys, foreign keys, and unique keys are imposed. 
