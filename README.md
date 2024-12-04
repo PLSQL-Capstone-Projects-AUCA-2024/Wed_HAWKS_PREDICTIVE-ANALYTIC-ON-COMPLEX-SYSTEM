@@ -160,4 +160,19 @@ INNER JOIN Location ON Disaster.Location_ID = Location.Location_ID;
 
 <!-- Contribution: Reviewed and added comments for better readability -->
 
+## PHASE 7: Advanced Database Programming and Auditing
 
+## (g) Scope and Limitations
+
+This project includes advanced database programming features, such as:
+- **Triggers:** Ensure data integrity and automate workflows.
+- **Cursors:** Handle row-by-row data processing.
+- **Functions and Packages:** Encapsulate reusable logic for efficient operations.
+- **Auditing Mechanisms:** Track changes and enforce security measures.
+
+### Key Considerations:
+- **Performance Impact:** Triggers and cursors can affect performance if not optimized.
+- **Complexity:** Auditing requires careful setup to avoid excessive logging.
+- **Data Consistency:** Ensure proper testing when implementing packages and functions.
+
+For detailed documentation, see the [Scope and Limitations Documentation](./scope_limitations.md).
