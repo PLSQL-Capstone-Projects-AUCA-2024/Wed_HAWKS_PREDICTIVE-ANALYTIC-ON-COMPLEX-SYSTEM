@@ -59,6 +59,7 @@ This document outlines the scope and limitations of the key features implemented
 - **Data Overload:** Too much audit data can be overwhelming and difficult to analyze without proper filtering.
 - **Privacy Concerns:** Ensure compliance with privacy regulations when logging user data.
 
+_______________________________________________________________________________________________________________
 
 Here is a more detailed and descriptive creation of **audits**, **triggers**, **cursors**, **functions**, and **packages**, along with the **problem statement justification**.
 
@@ -268,10 +269,6 @@ END;
 - Enhancing security with auditing and restrictions.
 - Processing data efficiently with cursors.
 
-#### Limitations:
-- Auditing can increase storage requirements.
-- Complex triggers may add overhead to large datasets.
-- Cursor-based row-by-row processing may be slower for large datasets compared to bulk operations.
 
 
 ## Conclusion:
